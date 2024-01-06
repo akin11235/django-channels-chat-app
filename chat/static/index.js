@@ -7,6 +7,7 @@ document.querySelector("#roomInput").focus();
 document.querySelector("#roomInput").onkeyup = function (e) {
   if (e.keyCode === 13) {
     // enter key
+
     document.querySelector("#roomConnect").click();
   }
 };
